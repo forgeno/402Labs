@@ -1,0 +1,17 @@
+Question 1:
+socket.SOCK_STREAM means you are sending a TCP packet whereas socket.SOCK_DGRAM sends UDP packets. socket.socket(socket.AF_INET, socket.SOCK_STREAM) is the commend to send a TCP packet.
+
+Question 2:
+Client sockets are created and use connect() send(). The client initiates the server.
+Server sockets use bind() and listen() to respond to send() and connect() from the client.
+
+Question 3:
+
+
+Question 4:
+socket.accept() returns a tuple of 2 elements. The first element is a socketObject containing data about who sent the packet. The second element is a tuple containing the IP where the packet was sent from along with the port number used to send it.
+
+Question 5:
+An empty
+
+Question 6:
