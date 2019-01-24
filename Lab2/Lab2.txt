@@ -15,6 +15,6 @@ Question 5:
 No data should be returned after the recv() function completes sending information.
 
 Question 6:
-
+https://github.com/forgeno/402Labs/tree/master/Lab2
 
 
