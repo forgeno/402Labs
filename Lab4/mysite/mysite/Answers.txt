@@ -1,0 +1,38 @@
+Question 1:
+
+
+
+Question 2: 
+
+404 Page Not found, indicating we have not indexed the url referencing "/"
+
+Question 3:
+
+"/" takes me to a "404 page not found" error 
+"/polls" takes me to a page displaying "Hello, world. You're at the polls index."
+
+Question 4: 
+
+makemigrations generates SQL commands required to create or make changes to the model but does not run the commands
+migrate runs the actual SQL commands so the changes are applied
+
+Question 5: 
+
+After logging into the admin panel of django, I see the models i created earlier with the ability to add/remove and modify them
+To make models appear on the django admin site, add "from .models import MODEL_NAME" and admin.site.register(MODEL_NAME) to appname/admin.py
+
+Question 6: 
+
+/polls/38 i am redirected to a page that displays a message "You're looking at question 38."
+/polls/38/results/ i am redirected to a page that displays a message "You're looking at the results of question 38"
+/polls/38/vote/ i am directed to a page that displays a message "You're voting on question 38"
+If I replace 38 with "thirty-eight" the website will return a 404 page not found because we did not account for strings.
+To fix this we can use "str" rather than "int" 
+
+Question 7: 
+
+It is bad to hardcode URLs because then we cannot request for specific data as a result of changing a part of the URL. We want to be able to retrieve information regarding specific objects in our database using one variable URL rather than creating a unique URL for every item in our db.
+
+Question 8: 
+
+Code is more modular and organized because class based generic views are seperate from the views file and allow for object oriented techniques. Function based views are better for when you want straightforward, readable and easy to read code.
