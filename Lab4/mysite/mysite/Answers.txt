@@ -1,10 +1,9 @@
 Question 1:
-
-
+https://github.com/forgeno/402Labs/tree/master/Lab4/mysite
 
 Question 2: 
 
-404 Page Not found, indicating we have not indexed the url referencing "/"
+A rocketship that displays the inital auto generated django webpage.
 
 Question 3:
 

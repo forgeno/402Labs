@@ -1,0 +1,27 @@
+Question 1:
+
+cgi.print_environ()
+
+Question 2:
+qs = os.environ.get("QUERY_STRING", None)
+
+
+Question 3:
+ua = os.environ.get("HTTP_USER_AGENT", None)
+
+
+Question 4:
+form = cgi.FieldStorage()
+
+
+Question 5:
+Set-Cookie 
+
+
+Question 6:
+Cookie: Key=value,key2=value2
+
+
+Question 7:
+Cookies are small files used to store information. The browser can later access these files to restore presets or other features.
+
